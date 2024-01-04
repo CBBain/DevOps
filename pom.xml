@@ -2,8 +2,9 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.ac.dundee.computing.cbbain</groupId>
   <artifactId>devops</artifactId>
-  <version>1</version>
+  <version>1.0</version>
   <packaging>war</packaging>
+  <name>devops</name>
 
 <build>
         <plugins>
@@ -57,6 +58,7 @@
                 </executions>
             </plugin>
         </plugins>
+      <finalName>${project.name}</finalName>
     </build>
 
 </project>
